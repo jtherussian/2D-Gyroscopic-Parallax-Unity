@@ -10,8 +10,15 @@ public class SceneToggle : MonoBehaviour
     public void playGame()
     {
         int totalScenes = SceneManager.sceneCountInBuildSettings;
-        
+
         currentSceneIndex = (currentSceneIndex + 1) % totalScenes;
+
+        // If the index is equal to the total number of scenes, set it back to 0.
+        if (currentSceneIndex == totalScenes)
+        {
+            currentSceneIndex = 0;
+        }
+
         SceneManager.LoadScene(currentSceneIndex);
     }
 }
