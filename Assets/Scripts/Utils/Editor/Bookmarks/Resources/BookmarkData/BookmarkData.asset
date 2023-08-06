@@ -23,5 +23,8 @@ MonoBehaviour:
   - ToggleLabel: 0
     Reference: {fileID: 102900000, guid: 2cda990e2423bbf4892e6590ba056729, type: 3}
     Description: Assets/Scenes/TestScene.unity
+  - ToggleLabel: 0
+    Reference: {fileID: 11500000, guid: b64baf03e4e00a54e9903e2e5ce3b26e, type: 3}
+    Description: Assets/Scripts/Utils/GyroParallax.cs
   showReference: 0
   scrollPosition: {x: 0, y: 0}
