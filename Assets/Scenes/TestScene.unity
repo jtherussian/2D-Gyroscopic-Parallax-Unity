@@ -1753,16 +1753,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layers:
   - rectTransform: {fileID: 1179511737}
-    parallaxEffectMultiplier: 1.5
+    parallaxEffectMultiplier: 2
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 2134027278}
-    parallaxEffectMultiplier: 1
+    parallaxEffectMultiplier: 1.5
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 108031650}
-    parallaxEffectMultiplier: 0.6
+    parallaxEffectMultiplier: 1
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 2103747356}
-    parallaxEffectMultiplier: 0.3
+    parallaxEffectMultiplier: 0.5
     initialPos: {x: 0, y: 0}
 --- !u!114 &2065760446
 MonoBehaviour:
