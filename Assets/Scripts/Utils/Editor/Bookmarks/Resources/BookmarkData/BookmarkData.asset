@@ -26,5 +26,8 @@ MonoBehaviour:
   - ToggleLabel: 0
     Reference: {fileID: 11500000, guid: b64baf03e4e00a54e9903e2e5ce3b26e, type: 3}
     Description: Assets/Scripts/Utils/GyroParallax.cs
+  - ToggleLabel: 0
+    Reference: {fileID: 102900000, guid: 72e2d3e7cfbb64731888ee6f9e1ffa1f, type: 3}
+    Description: Assets/Scenes/LandScape.unity
   showReference: 0
   scrollPosition: {x: 0, y: 0}
