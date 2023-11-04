@@ -2764,7 +2764,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1030560497
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2909,6 +2909,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1102921156}
   - component: {fileID: 1102921157}
+  - component: {fileID: 1102921158}
   m_Layer: 5
   m_Name: NightContent
   m_TagString: Untagged
@@ -2968,6 +2969,43 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &1102921158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102921155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b64baf03e4e00a54e9903e2e5ce3b26e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layers:
+  - rectTransform: {fileID: 1705252252}
+    parallaxEffectMultiplier: 0.2
+    initialPos: {x: 0, y: 0}
+  - rectTransform: {fileID: 1531372048}
+    parallaxEffectMultiplier: 0.4
+    initialPos: {x: 0, y: 0}
+  - rectTransform: {fileID: 758761574}
+    parallaxEffectMultiplier: 0.8
+    initialPos: {x: 0, y: 0}
+  - rectTransform: {fileID: 268915191}
+    parallaxEffectMultiplier: 1
+    initialPos: {x: 0, y: 0}
+  - rectTransform: {fileID: 527648200}
+    parallaxEffectMultiplier: 0.7
+    initialPos: {x: 0, y: 0}
+  - rectTransform: {fileID: 1979776045}
+    parallaxEffectMultiplier: 1.3
+    initialPos: {x: 0, y: 0}
+  - rectTransform: {fileID: 442423091}
+    parallaxEffectMultiplier: 1.7
+    initialPos: {x: 0, y: 0}
+  - rectTransform: {fileID: 2022478031}
+    parallaxEffectMultiplier: 1.1
+    initialPos: {x: 0, y: 0}
 --- !u!1 &1142215675
 GameObject:
   m_ObjectHideFlags: 0
@@ -3593,7 +3631,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1246386863
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3819,7 +3857,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1348009077
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3829,7 +3867,7 @@ RectTransform:
   m_GameObject: {fileID: 1348009076}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.6894, y: 1.6894, z: 1.6894}
+  m_LocalScale: {x: 1.6894, y: -1.6049299, z: 1.6894}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1712669566}
@@ -3863,7 +3901,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -630.62, y: -67.149}
+  m_AnchoredPosition: {x: -630.62, y: 470.17023}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1348106974
@@ -6410,7 +6448,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2070989385
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6443,7 +6481,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2072442358}
-  - component: {fileID: 2072442359}
   m_Layer: 5
   m_Name: GyroController
   m_TagString: Untagged
@@ -6471,52 +6508,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 1}
   m_SizeDelta: {x: 964.6, y: 542}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2072442359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2072442357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b64baf03e4e00a54e9903e2e5ce3b26e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layers:
-  - rectTransform: {fileID: 1705252252}
-    parallaxEffectMultiplier: 0.2
-    initialPos: {x: 0, y: 0}
-  - rectTransform: {fileID: 1531372048}
-    parallaxEffectMultiplier: 0.4
-    initialPos: {x: 0, y: 0}
-  - rectTransform: {fileID: 758761574}
-    parallaxEffectMultiplier: 0.8
-    initialPos: {x: 0, y: 0}
-  - rectTransform: {fileID: 268915191}
-    parallaxEffectMultiplier: 1
-    initialPos: {x: 0, y: 0}
-  - rectTransform: {fileID: 527648200}
-    parallaxEffectMultiplier: 0.4
-    initialPos: {x: 0, y: 0}
-  - rectTransform: {fileID: 1979776045}
-    parallaxEffectMultiplier: 1
-    initialPos: {x: 0, y: 0}
-  - rectTransform: {fileID: 442423091}
-    parallaxEffectMultiplier: 1.4
-    initialPos: {x: 0, y: 0}
-  - rectTransform: {fileID: 2022478031}
-    parallaxEffectMultiplier: 0.8
-    initialPos: {x: 0, y: 0}
-  - rectTransform: {fileID: 1030560497}
-    parallaxEffectMultiplier: 1.3
-    initialPos: {x: 0, y: 0}
-  - rectTransform: {fileID: 1246386863}
-    parallaxEffectMultiplier: 1.5
-    initialPos: {x: 0, y: 0}
-  - rectTransform: {fileID: 2070989385}
-    parallaxEffectMultiplier: 2
-    initialPos: {x: 0, y: 0}
 --- !u!1 &2086271550
 GameObject:
   m_ObjectHideFlags: 0
