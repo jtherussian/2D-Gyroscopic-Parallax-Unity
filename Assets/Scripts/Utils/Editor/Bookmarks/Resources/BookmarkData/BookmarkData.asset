@@ -32,5 +32,8 @@ MonoBehaviour:
   - ToggleLabel: 0
     Reference: {fileID: 102900000, guid: 7a0684be929334218ab3da0c2f69bc6e, type: 3}
     Description: Assets/Scenes/Circles.unity
+  - ToggleLabel: 0
+    Reference: {fileID: 102900000, guid: ca88de36e867843d0b59b4646c12b4ef, type: 3}
+    Description: Assets/Scenes/Eyes.unity
   showReference: 0
   scrollPosition: {x: 0, y: 0}
