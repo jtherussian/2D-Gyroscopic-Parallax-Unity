@@ -5,20 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class SceneToggle : MonoBehaviour
 {
-    private int startingSceneIndex = 0;
     private int currentSceneIndex = 0;
-    private int totalScenes;
 
     private void Start()
     {
-        totalScenes = SceneManager.sceneCountInBuildSettings;
-        startingSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        currentSceneIndex = startingSceneIndex;
+        currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
     }
 
-    public void playGame()
+    public void PlayGame()
     {
+        int totalScenes = SceneManager.sceneCountInBuildSettings;
+
+        // Increase the current scene index by 1, and loop back to 0 if it exceeds the total scenes.
         currentSceneIndex = (currentSceneIndex + 1) % totalScenes;
+
+        // Load the next scene by index.
         SceneManager.LoadScene(currentSceneIndex);
     }
 }
