@@ -1063,49 +1063,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layers:
   - rectTransform: {fileID: 546160761}
-    parallaxEffectMultiplier: 4
+    parallaxEffectMultiplier: 5
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 90950539}
-    parallaxEffectMultiplier: 3.7
+    parallaxEffectMultiplier: 4.7
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 1383634521}
-    parallaxEffectMultiplier: 3.5
+    parallaxEffectMultiplier: 4.5
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 1757644721}
-    parallaxEffectMultiplier: 3.1
+    parallaxEffectMultiplier: 4.1
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 507998360}
-    parallaxEffectMultiplier: 2.9
+    parallaxEffectMultiplier: 3.9
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 878474015}
-    parallaxEffectMultiplier: 2.7
+    parallaxEffectMultiplier: 3.7
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 303526821}
-    parallaxEffectMultiplier: 2.5
+    parallaxEffectMultiplier: 3.5
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 1236170222}
-    parallaxEffectMultiplier: 2.2
+    parallaxEffectMultiplier: 3.2
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 1552240362}
-    parallaxEffectMultiplier: 1.85
+    parallaxEffectMultiplier: 2.85
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 772834359}
-    parallaxEffectMultiplier: 1.5
+    parallaxEffectMultiplier: 2.5
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 805937367}
-    parallaxEffectMultiplier: 1.3
+    parallaxEffectMultiplier: 2.3
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 1941387596}
-    parallaxEffectMultiplier: 1
+    parallaxEffectMultiplier: 2
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 1174237724}
-    parallaxEffectMultiplier: 0.7
+    parallaxEffectMultiplier: 1.7
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 555468585}
-    parallaxEffectMultiplier: 0.5
+    parallaxEffectMultiplier: 1.5
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 1962409282}
-    parallaxEffectMultiplier: 0.3
+    parallaxEffectMultiplier: 1.3
     initialPos: {x: 0, y: 0}
 --- !u!1 &1174237723
 GameObject:
