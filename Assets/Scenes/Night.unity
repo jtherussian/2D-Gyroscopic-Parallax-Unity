@@ -4159,28 +4159,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layers:
   - rectTransform: {fileID: 1705252252}
-    parallaxEffectMultiplier: 0.1
+    parallaxEffectMultiplier: 0.2
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 1531372048}
-    parallaxEffectMultiplier: 0.2
+    parallaxEffectMultiplier: 0.4
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 758761574}
-    parallaxEffectMultiplier: 0.4
+    parallaxEffectMultiplier: 0.8
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 268915191}
-    parallaxEffectMultiplier: 0.5
+    parallaxEffectMultiplier: 1
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 527648200}
-    parallaxEffectMultiplier: 0.2
+    parallaxEffectMultiplier: 0.4
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 1979776045}
-    parallaxEffectMultiplier: 0.5
+    parallaxEffectMultiplier: 1
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 442423091}
-    parallaxEffectMultiplier: 0.7
+    parallaxEffectMultiplier: 1.4
     initialPos: {x: 0, y: 0}
   - rectTransform: {fileID: 2022478031}
-    parallaxEffectMultiplier: 0.4
+    parallaxEffectMultiplier: 0.8
     initialPos: {x: 0, y: 0}
 --- !u!1 &2086271550
 GameObject:
